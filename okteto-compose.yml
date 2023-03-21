@@ -2,7 +2,7 @@ services:
   worker:
     build: .
     environment:
-      TG_BOT_TOKEN: $TG_BOT_TOKEN
+      TOKEN: $TOKEN
       API_ID: $API_ID
       API_HASH: $API_HASH
     resources:
