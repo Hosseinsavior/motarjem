@@ -1,10 +1,7 @@
 services:
   worker:
     build: .
-    environment:
-      TOKEN: $TOKEN
-      API_ID: $API_ID
-      API_HASH: $API_HASH
+    restart: always
     resources:
       cpu: 1000m
       memory: 3Gi
