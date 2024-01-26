@@ -1,8 +1,10 @@
 
 from pyrogram import Client
 import os
+from keep_alive import keep_alive
+keep_alive()
 
-TOKEN = os.environ.get("TOKEN", "5373340631:AAGtYnuO4FIXB33buuvjSpbHlNSQJN9mMqk")
+TOKEN = os.environ.get("TOKEN", "5735916294:AAEluBTarSYiwBznfpjbLgAHacl9aApktts")
 
 API_ID = int(os.environ.get("API_ID",14699743))
 
